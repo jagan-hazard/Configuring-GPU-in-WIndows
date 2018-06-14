@@ -96,3 +96,5 @@ Steps for Connection
                   >>cv2.__version__
    
    Note: Since, already the packages are installed, ‘pip install –ignore-installed (package name)’ should be used, if it says  ‘Requirement already satisfied’. All necessary packages have to be installed again for working in the new environment created.
+   
+  
