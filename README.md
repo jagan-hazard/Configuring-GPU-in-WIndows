@@ -13,11 +13,14 @@ Minimum Requirements of GPU:
  
 Steps for Connection
 --------------------
+
+  Here we are using seperate SMPS for CPU and GPU, if that is the case use this step or else skip this step
+  
         1. Connect the cable from male PCI slot of GPU to female PCI slot of motherboard
         2. Connect 6 and 8-pin connector to GPU, from 6+2 PCI-e slot of SMPS
         3. Connect 24-pin ATX cable to SMPS and its other end is short using jumper wire at pin-16 and pin-17(pin-15 and pin-16 can                 also be used). For pin details refer the pin diagram in the diagram below.
         
-  (Note: Switch on CPU and SMPS in parallel. Since, GPU is connected to SMPS)
+  (Note: Switch on CPU and SMPS in parallel. Since, GPU is connected to SMPS.)
   
  NVIDIA Driver Installation
  --------------------------
